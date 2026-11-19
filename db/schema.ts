@@ -1,0 +1,4 @@
+import { integer, sqliteTable, text } from 'drizzle-orm/sqlite-core';
+export const products = sqliteTable('products',{id:text('id').primaryKey(),name:text('name').notNull(),category:text('category').notNull(),description:text('description').notNull(),ingredients:text('ingredients').notNull(),weight:text('weight').notNull(),price:integer('price').notNull(),stock:integer('stock').notNull(),active:integer('active').notNull().default(1),image:text('image').notNull()});
+export const orders = sqliteTable('orders',{id:text('id').primaryKey(),created:text('created').notNull(),customer:text('customer').notNull(),items:text('items').notNull(),total:integer('total').notNull(),status:text('status').notNull(),test:integer('test').notNull(),requestKey:text('request_key').notNull().unique()});
+export const settings = sqliteTable('settings',{id:text('id').primaryKey(),value:text('value').notNull()});

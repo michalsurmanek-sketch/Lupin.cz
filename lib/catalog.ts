@@ -1,0 +1,5 @@
+export const initialProducts = [
+{id:'mouka',name:'Lupinová mouka',category:'Do kuchyně',description:'Jemně mletá mouka ze sladké lupiny. Nová inspirace pro domácí pečení, slané těsto i palačinky. Přidávejte ji jako část moučné směsi podle receptu.',ingredients:'100 % mouka ze sladké LUPINY. Alergen: lupina.',weight:'500 g',price:8900,stock:0,active:1,image:'flour'},
+{id:'kava',name:'Lupinová káva',category:'Pro chvíli klidu',description:'Koncept pražené lupinové alternativy kávy pro váš každodenní rituál. Detailní složení a přípravu doplníme před zahájením prodeje.',ingredients:'Pražená sladká LUPINA. Alergen: lupina.',weight:'250 g',price:14900,stock:0,active:1,image:'coffee'},
+{id:'dobroty',name:'Lupinové dobroty',category:'Něco na zub',description:'Připravovaná kolekce dobrot s lupinou. Recepturu, kompletní složení a výživové údaje zveřejníme před uvedením do prodeje.',ingredients:'Receptura se připravuje. Obsahuje LUPINU. Další alergeny budou upřesněny.',weight:'150 g',price:9900,stock:0,active:1,image:'cookies'}];
+export const defaults={testMode:true,seller:'',ico:'',address:'',email:'',bank:'',shipping:7900,freeShipping:120000,terms:'',privacy:''};
